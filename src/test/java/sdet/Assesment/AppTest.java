@@ -32,8 +32,7 @@ public class AppTest {
 	  driver.findElement(By.xpath(loginPage.loginbtn)).click();
 	  String browserTitle ="Swag Labs";
 	  AssertJUnit.assertEquals(driver.getTitle(), browserTitle);
-	 
-	
+	 	
 	  System.out.println("Swag Lab logged in succesful");
 	}
   
