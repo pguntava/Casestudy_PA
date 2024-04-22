@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+
+  <test name ="App test">
+    <parameter name="URL" value="htps//saucedemo.com"/>
+    <parameter name="User Name" value="standard_user"/>
+    <parameter name="Password" value="secret_sauce"/>
+    
+  </test>
+
+</suite> <!-- Suite -->
+ 
