@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: sdet.Assesment.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.65 s <<< FAILURE! - in sdet.Assesment.AppTest
+loginTest(sdet.Assesment.AppTest)  Time elapsed: 0.468 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'User Name' is required by @Test on method loginTest but has not been marked @Optional or defined
+
+
